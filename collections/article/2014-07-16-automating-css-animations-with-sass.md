@@ -13,8 +13,8 @@ title: "Automating CSS animations with Sass"
 
 The other day, [Harry Roberts](https://twitter.com/csswizardry) featured a snippet of code from his own site [on Twitter](https://twitter.com/csswizardry/status/489038580128686081), asking for some ways to improve it (if any). What Harry did was computing by hand the keyframes of a carousel animation, thus claiming that high school algebra indeed **is** useful.
 
-> “Why do we have to learn algebra, Miss? We’re never going to use it…”  
-> &mdash;Everyone in my maths class  
+> “Why do we have to learn algebra, Miss? We’re never going to use it…”
+> &mdash;Everyone in my maths class
 > [bit.ly/UaM2wf](http://bit.ly/UaM2wf)
 
 ## What’s the idea?
@@ -64,56 +64,56 @@ And the result is:
 
 ```css
 @keyframes carousel {
-  0% { 
-    transform: translate3d(0, 0, 0); 
+  0% {
+    transform: translate3d(0, 0, 0);
     filter: blur(0);
   }
-  17.5% { 
-    transform: translate3d(0, 0, 0); 
+  17.5% {
+    transform: translate3d(0, 0, 0);
     filter: blur(0);
   }
-  19.0625% {                                      
+  19.0625% {
     filter: blur(2px);
   }
   20.625% {
-    transform: translate3d(-20%, 0, 0); 
+    transform: translate3d(-20%, 0, 0);
     filter: blur(0);
   }
-  38.125% { 
-    transform: translate3d(-20%, 0, 0); 
+  38.125% {
+    transform: translate3d(-20%, 0, 0);
     filter: blur(0);
   }
-  39.6875% {                                
+  39.6875% {
     filter: blur(2px);
   }
-  41.25%   { 
-    transform: translate3d(-40%, 0, 0); 
+  41.25%   {
+    transform: translate3d(-40%, 0, 0);
     filter: blur(0);
   }
-  58.75%   { 
-    transform: translate3d(-40%, 0, 0); 
+  58.75%   {
+    transform: translate3d(-40%, 0, 0);
     filter: blur(0);
   }
-  60.3125% {                                      
+  60.3125% {
     filter: blur(2px);
   }
-  61.875%  { 
-    transform: translate3d(-60%, 0, 0); 
+  61.875%  {
+    transform: translate3d(-60%, 0, 0);
     filter: blur(0);
   }
-  79.375%  { 
-    transform: translate3d(-60%, 0, 0); 
+  79.375%  {
+    transform: translate3d(-60%, 0, 0);
     filter: blur(0);
   }
-  80.9375% {                                      
+  80.9375% {
     filter: blur(2px);
   }
-  82.5%    { 
-    transform: translate3d(-80%, 0, 0); 
+  82.5%    {
+    transform: translate3d(-80%, 0, 0);
     filter: blur(0);
   }
-  100%     { 
-    transform: translate3d(-80%, 0, 0); 
+  100%     {
+    transform: translate3d(-80%, 0, 0);
     filter: blur(0);
   }
 }
@@ -127,9 +127,9 @@ Before even thinking about Sass, let's lighten the animation a little bit. As we
 
 ```css
 @keyframes carousel {
-  0%, 
+  0%,
   17.5% {
-    transform: translate3d(0, 0, 0); 
+    transform: translate3d(0, 0, 0);
     filter: blur(0);
   }
 
@@ -137,9 +137,9 @@ Before even thinking about Sass, let's lighten the animation a little bit. As we
     filter: blur(2px);
   }
 
-  20.625%, 
+  20.625%,
   38.125% {
-    transform: translate3d(-20%, 0, 0); 
+    transform: translate3d(-20%, 0, 0);
     filter: blur(0);
   }
 
@@ -147,9 +147,9 @@ Before even thinking about Sass, let's lighten the animation a little bit. As we
     filter: blur(2px);
   }
 
-  41.25%, 
+  41.25%,
   58.75% {
-    transform: translate3d(-40%, 0, 0); 
+    transform: translate3d(-40%, 0, 0);
     filter: blur(0);
   }
 
@@ -157,9 +157,9 @@ Before even thinking about Sass, let's lighten the animation a little bit. As we
     filter: blur(2px);
   }
 
-  61.875%, 
+  61.875%,
   79.375% {
-    transform: translate3d(-60%, 0, 0); 
+    transform: translate3d(-60%, 0, 0);
     filter: blur(0);
   }
 
@@ -167,9 +167,9 @@ Before even thinking about Sass, let's lighten the animation a little bit. As we
     filter: blur(2px);
   }
 
-  82.5%, 
+  82.5%,
   100% {
-    transform: translate3d(-80%, 0, 0); 
+    transform: translate3d(-80%, 0, 0);
     filter: blur(0);
   }
 }
@@ -321,7 +321,7 @@ Rest is pretty much the same. Calling it is quite easy now:
 
 ```scss
 @include carousel-animation(
-  $frames: 5, 
+  $frames: 5,
   $static: 17.5%
 );
 ```
@@ -370,10 +370,10 @@ Mission accomplished! And if we want another animation for the contact page for 
 ```scss
 @include carousel-animation(
   $name: 'carousel-contact',
-  $frames: 3, 
+  $frames: 3,
   $static: 20%
 );
-``` 
+```
 
 Pretty neat, heh?
 
@@ -384,4 +384,3 @@ That's pretty much it. While Harry's initial code is easier to read for the huma
 You can play with the code on SassMeister:
 
 <p class="sassmeister" data-gist-id="b657072d11c527f3a016" data-height="480"><a href="http://sassmeister.com/gist/b657072d11c527f3a016">Play with this gist on SassMeister.</a></p>
-<script src="http://cdn.sassmeister.com/js/embed.js" async></script>
