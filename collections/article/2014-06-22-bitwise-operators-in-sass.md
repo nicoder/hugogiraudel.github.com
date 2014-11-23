@@ -14,13 +14,13 @@ title: "Bitwise operators in Sass"
 
 A couple of days ago, [Valérian Galliat](https://twitter.com/valeriangalliat) and I had the crazy idea of implementing bitwise operators in Sass. It went like this:
 
-> **Hugo**: Do you know how bitwise operators work?  
-> **Val**: Yes.  
-> **Hugo**: Do you think we could implement them in Sass?  
-> **Val**: No.  
-> (Loading...)  
-> **Val**: Well, in fact we could.  
-> **Hugo**: LET'S DO IT!  
+> **Hugo**: Do you know how bitwise operators work?
+> **Val**: Yes.
+> **Hugo**: Do you think we could implement them in Sass?
+> **Val**: No.
+> (Loading...)
+> **Val**: Well, in fact we could.
+> **Hugo**: LET'S DO IT!
 
 And so we did, hence a short article to relate the story as well as providing a (useless) use case. But first let's catch up on bitwise operators, shall we?
 
@@ -105,7 +105,7 @@ Now, we wanted to implement this in Sass. There are two ways of doing it:
 
 We could have decided to manipulate binary strings but god knows why, we ended up implementing the mathematical equivalents of all operators. Fortunately, we didn't have to figure out the formula (we are not *that* clever): [Wikipedia has them](http://en.wikipedia.org/wiki/Bitwise_operation#Mathematical_equivalents).
 
-You may think that we didn't need a decimal to binary converter since we use math rather than string manipulation. Actually, we had to write a `decimal-to-binary()` function because we needed to know the length of the binary string to compute bitwise operations. 
+You may think that we didn't need a decimal to binary converter since we use math rather than string manipulation. Actually, we had to write a `decimal-to-binary()` function because we needed to know the length of the binary string to compute bitwise operations.
 
 We could have figured this length without converting to binary if we had a `log()` function. And we could have made a `log()` function if we had a `frexp()` function. And we could have made a `frexp()` function if we had bitwise operators. Do you see the problem here?
 
@@ -222,4 +222,4 @@ test {
 
 That's it folks, SassyBitwise. No point, much fun. As always.
 
-*Note: a huge thanks to Valérian Galliat for helping me out with this.*
+*Note: a huge thanks to [Valérian Galliat](https://twitter.com/valeriangalliat) for helping me out with this.*
