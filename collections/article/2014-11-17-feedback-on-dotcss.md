@@ -27,7 +27,10 @@ Anyway, if you felt frisky coming to dotCSS this year because it was the first e
 
 The conference happened at the [Théâtre des Variétés](http://en.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_des_Vari%C3%A9t%C3%A9s) in Paris, a beautiful 19th century redish and goldish theatre with balconies, great lights and everything. It was absolutely gorgeous. The stage was not huge but definitely big enough to move a bit around. I think one could not dream of a best location to give a talk.
 
-![Théâtre des Variétés in Paris](http://www.dotcss.eu/images/bg.jpg)
+<figure class="figure">
+<img src="/images/feedback-on-dotcss__theatre.jpg" alt="" />
+<figcaption>Théâtre des Variétés in Paris. Photo by dotCSS.</figcaption>
+</figure>
 
 ## About the talks
 
@@ -40,8 +43,8 @@ The 18-minutes format is probably one of the best if you ask me. Not only is tim
 I don't think the attention-span for a talk is meant to last any longer than 30-something minutes. At some point, people just get bored. I feel like this point happens between 20 and 30 minutes; before if they are not interested in the topic, slightly after if the speaker is really good on stage.
 
 <figure class="figure">
-<img src="https://pbs.twimg.com/media/B2az8f5IEAAWaQY.jpg" alt="" />
-<figcaption>All speakers and organisers. Photo by <a href="https://twitter.com/ecarriou/status/533311468473954304/photo/1">Erwan Carriou</a>.</figcaption>
+<img src="/images/feedback-on-dotcss__speakers.jpg" alt="" />
+<figcaption>All speakers and organisers. Photo by dotCSS.</figcaption>
 </figure>
 
 Anyway, allow me to give you a quick round-up.
@@ -79,7 +82,7 @@ Interestingly enough, I realised that I feel much more confident when I don't se
 So facing a black wall was actually much easier than expected. It allowed me to keep tracks of my thoughts without being disturbed. Loved it.
 
 <figure class="figure">
-<img src="https://pbs.twimg.com/media/B2aR-97IEAAsVth.jpg" alt="" />
+<img src="/images/feedback-on-dotcss__hugo.jpg" alt="" />
 <figcaption>Me on stage. Photo by dotCSS.</figcaption>
 </figure>
 
