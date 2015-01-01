@@ -1,14 +1,14 @@
 ---
 codepen: false
 comments: false
-date: 2014-12-11
+date: 2014-12-23
 external:
   host: SitePoint
-  url: http://www.sitepoint.com/avoid-sass-extend/
+  url: http://www.sitepoint.com/introducing-sass-compatibility/
 layout: none
 preview: false
 published: true
 sassmeister: false
 summary: false
-title: "Why you should avoid Sass extend"
+title: "Introducing Sass-Compatibility"
 ---
