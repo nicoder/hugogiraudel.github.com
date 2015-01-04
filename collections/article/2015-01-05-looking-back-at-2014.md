@@ -27,8 +27,7 @@ Along the same lines, I have written a total of 91 articles published on 6 diffe
 
 ## I gave my first talk out of France
 
-
-<figure class="figure--right">
+<figure class="figure--left">
 <img src="/images/feedbacks-feweb__speakers.jpg" alt="">
 <figcaption>Thierry Michel and I on stage.</figcaption>
 </figure>
