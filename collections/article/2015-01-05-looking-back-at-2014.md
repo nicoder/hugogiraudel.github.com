@@ -21,11 +21,11 @@ The end of the year often means looking back at the last dozen of months to see 
 
 Early 2014, I officially started writing as a freelancer. Since then, my secondary activity has been giving me the ability to invoice sites for articles, including SitePoint and Tuts+.
 
-<blockquote class="pull-quote--right">I have written 91 articles in 2014.</blockquote>
+<blockquote class="pull-quote--left">I have written 91 articles in 2014.</blockquote>
 
 Along the same lines, I have written a total of 91 articles published on 6 different sites in 2014. It is not quite but very close to 2 articles a week. I am very proud of such a pace and hope I'll be able to keep writing at a decent rate, if not as much.
 
-## I gave my first talk out of France
+<h2 style="clear: both">I gave my first talk out of France</h2>
 
 <figure class="figure--left">
 <img src="/images/feedbacks-feweb__speakers.jpg" alt="">
@@ -46,7 +46,7 @@ Later this year, in November, [I gave my first talk in English](http://hugogirau
 
 <figure class="figure--right">
 <img src="/images/looking-back-at-2014__book-cover.png" alt="" />
-<figcaption>My incoming book</figcaption>
+<figcaption>My upcoming book</figcaption>
 </figure>
 
 Apparently I wrote a book this year. It is not published yet, will be in January 2015 if no mistake. Anyway I spent over 7 months working on it with the help of [Raphaël Goetter](https://twitter.com/goetter), so I think it deserves a big spot on the list of things I've done in 2014.
