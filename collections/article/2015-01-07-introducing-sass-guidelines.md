@@ -11,6 +11,8 @@ summary: false
 title: "Introducing Sass Guidelines"
 ---
 
+> **Edit (2015/01/07):** over 20000 visits on [Sass Guidelines](http://sass-guidelin.es) during the last 24 hours. Thank you so much for your support!
+
 I don't know why I did not think of writing Sass guidelines when [Harry Roberts](http://csswizardry.com) first released his [CSS Guidelines](http://cssguidelin.es) a couple of months back. Anyway, on saturday evening I had a *eureka moment*:
 
 > I SHOULD WRITE SASS GUIDELINES!
@@ -39,4 +41,4 @@ Also, and I need your help with this, for such a styleguide to make sense, it ha
 
 [Tweet it](https://twitter.com/share?text=Sass%20Guidelines%2C%20a%20styleguide%20for%20writing%20sane%2C%20maintainable%20and%20scalable%20Sass%20by%20%40HugoGiraudel%20%E2%80%94%20&url=http://sass-guidelin.es), upvote it on [Hacker News](https://news.ycombinator.com/item?id=8845421) and [reddit](http://redd.it/2rj36x) and above all: tell me what you think. This is the only way for me to improve it.
 
-Last but not least, if this project helps you gettign started with Sass, if it helps your team staying consistent or if you simply like it, consider [supporting the project](https://gumroad.com/l/sass-guildelines). Like [CSS Guidelines](http://cssguidelin.es), this document is completely free. Still, it took a lot of time to write it and will take even more keeping it up-to-date. Anyway, if you want to pay me a beer through Gumroad, that would be awesome. :)
+Last but not least, if this project helps you getting started with Sass, if it helps your team staying consistent or if you simply like it, consider [supporting the project](https://gumroad.com/l/sass-guildelines). Like [CSS Guidelines](http://cssguidelin.es), this document is completely free. Still, it took a lot of time to write it and will take even more keeping it up-to-date. Anyway, if you want to pay me a beer through Gumroad, that would be awesome. :)
