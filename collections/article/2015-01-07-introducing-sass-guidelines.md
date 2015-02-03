@@ -1,6 +1,6 @@
 ---
 codepen: false
-comments: false
+comments: true
 date: 2015-01-07
 disqus: false
 layout: none
