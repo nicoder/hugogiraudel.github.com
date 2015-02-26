@@ -14,7 +14,7 @@ title: "Translating Sass Guidelines"
 {% raw %}
 A couple of weeks ago, I [introduced Sass Guidelines](http://hugogiraudel.com/2015/01/07/introducing-sass-guidelines/), a huge styleguide to write efficient, sain and scalable Sass code in pretty much any project. It has known a massive success, so thank you all for your support! I am very glad to maintain this project knowning how popular it has gotten, especially this quick.
 
-Actually, it was so welcome that some lovely folks started translating it in different languages. It is currently available in [English](http://sass-guidelin.es), [French](http://sass-guidelin.es/fr/) and [Polish](http://sass-guidelin.es/pl/). [German](https://github.com/HugoGiraudel/sass-guidelines/issues/88), [Spanish](https://github.com/HugoGiraudel/sass-guidelines/issues/90), [Italian](https://github.com/HugoGiraudel/sass-guidelines/issues/91), [Portuguese](https://github.com/HugoGiraudel/sass-guidelines/issues/89), [Danish](https://github.com/HugoGiraudel/sass-guidelines/issues/84), [Dutch](https://github.com/HugoGiraudel/sass-guidelines/issues/86), [Russian](https://github.com/HugoGiraudel/sass-guidelines/issues/97), [Czech](https://github.com/HugoGiraudel/sass-guidelines/issues/92) and [Greek](https://github.com/HugoGiraudel/sass-guidelines/issues/83) should soon follow. Let's give credits where it's due while we're at it.
+Actually, it was so welcome that some lovely folks started translating it in different languages. It is currently available in [English](http://sass-guidelin.es), [French](http://sass-guidelin.es/fr/), [Spanish](http://sass-guidelin.es/es/), [Polish](http://sass-guidelin.es/pl/), [Russian](http://sass-guidelin.es/ru/), [Korean](http://sass-guidelin.es/ko/) and [Chinese](http://sass-guidelin.es/zh/). [German](https://github.com/HugoGiraudel/sass-guidelines/issues/88), [Italian](https://github.com/HugoGiraudel/sass-guidelines/issues/91), [Portuguese](https://github.com/HugoGiraudel/sass-guidelines/issues/89), [Danish](https://github.com/HugoGiraudel/sass-guidelines/issues/84), [Dutch](https://github.com/HugoGiraudel/sass-guidelines/issues/86), [Czech](https://github.com/HugoGiraudel/sass-guidelines/issues/92) and [Greek](https://github.com/HugoGiraudel/sass-guidelines/issues/83) should soon follow. Let's give credits where it's due while we're at it.
 
 * Greek: [Adonis K.](https://twitter.com/adon1sk) and [Konstantinos Margaritis](https://twitter.com/kmargaritis)
 * Danish: [Patrick Redzdaz](https://twitter.com/redzdaz)
@@ -22,11 +22,13 @@ Actually, it was so welcome that some lovely folks started translating it in dif
 * Dutch: [Tom De Witt](https://twitter.com/ttomdewit) and [Bart Veneman](https://twitter.com/BartVeneman)
 * Polish: [Andrzej Kłapeć](https://twitter.com/solidslash) and [Mateusz Chabros](https://twitter.com/matchabros)
 * German: [Kai Brueckers](https://twitter.com/kaibrueckers) and [Al Tembo](https://twitter.com/altembo)
-* Portuguese: [Ricardo Magalhães](https://twitter.com/magalhini), [Sara Vieira](https://twitter.com/nikkitaftw) and [Eduardo Bourças](https://twitter.com/eduardoboucas)
+* Portuguese: [Ricardo Magalhães](https://twitter.com/magalhini), [Sara Vieira](https://twitter.com/nikkitaftw) and [Eduardo Bouças](https://twitter.com/eduardoboucas)
 * Spanish: [Sonia Conde](https://twitter.com/nonlessorganic) and [David Khourshid](https://twitter.com/davidkpiano)
 * Italian: [Simone Rescio](https://twitter.com/srescio)
 * Czech: [Pavel Antolík](https://twitter.com/pavelantolik)
 * Russian: [Даниил Пронин](https://twitter.com/grawl) and [Pavel Demyanenko](https://twitter.com/PavelDemyanenko)
+* Korean: [Donghee Kim](https://github.com/kimdhoe)
+* Chinese: [Airen](https://github.com/airen) and [Sean Sun](https://twitter.com/seansun)
 
 If you read Sass Guidelines in anything but English, be sure to thank the translators. I am sure that will make their day. :)
 
@@ -216,7 +218,7 @@ The second paragraph is intended to warn against outdated information. To make i
 
 ## Final thoughts
 
-I am still looking for extra languages, such as Chinese, Japanese, Norwegian, Swedish, Finnish, and so on. If you speak one of these languages or know someone who would like to translate Sass Guidelines, please be sure to get in touch!
+I am still looking for extra languages, such as Japanese, Norwegian, Swedish, Finnish, and so on. If you speak one of these languages or know someone who would like to translate Sass Guidelines, please be sure to get in touch!
 
 
 {% endraw %}
